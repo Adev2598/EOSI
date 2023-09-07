@@ -1,5 +1,5 @@
 import React from 'react'
-import {Hero} from './components'
+import {Hero, Footer} from './components'
 import {About} from './pages'
 
 const App = () => {
@@ -7,6 +7,7 @@ const App = () => {
     <React.Fragment>
       <Hero/>
       <About/>
+      <Footer/>
     </React.Fragment>
   )
 }
