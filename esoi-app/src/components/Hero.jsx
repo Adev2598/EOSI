@@ -54,9 +54,9 @@ const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
             ))}
           </div>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-            {/* <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
-              Log in <span aria-hidden="true">&rarr;</span>
-            </a> */}
+            <a href="#" className=" dark:text-white text-sm font-semibold leading-6 text-gray-900">
+              Register <span aria-hidden="true">&rarr;</span>
+            </a>
           </div>
         </nav>
         <Dialog as="div" className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
@@ -99,12 +99,12 @@ const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
                   ))}
                 </div>
                 <div className="py-6">
-                  {/* <a
+                  <a
                     href="#"
-                    className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                    className=" dark:text-white -mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                   >
-                    Log in
-                  </a> */}
+                    Register
+                  </a>
                 </div>
               </div>
             </div>
@@ -127,7 +127,7 @@ const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
             // }}
           /> */}
         </div>
-        <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
+        <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:pt-56 lg:pb-0">
           <div className="hidden sm:mb-8 sm:flex sm:justify-center">
             <div className="dark:text-white relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 dark:ring-white ring-gray-900/10 dark:hover:ring-[#0a6aab] hover:ring-[#004169]/20">
               Register for EOSI {' '}
@@ -153,7 +153,7 @@ const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
                 Get started
               </a>
               <a href="#" className="dark:text-white text-sm font-semibold leading-6 text-gray-900">
-                Learn more <span aria-hidden="true">→</span>
+                More info {''} <span aria-hidden="true">→</span>
               </a>
             </div>
           </div>
