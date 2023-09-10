@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Popover} from '@headlessui/react'
 
 import '../Styles/animations.css'
 
@@ -59,35 +58,7 @@ const About = () => {
               </div>
               <div className="ml-2 grow">
                 <p className="mb-3 font-bold">Student Contributor Program</p>
-                <Popover className="relative">
-                  <Popover.Button>
-                    <span className="bg-[#0a6aab] rounded-md p-2">Read more {' '}
-                      <span className="font-bold" aria-hidden="true">&rarr;</span>
-                    </span>                    
-                  </Popover.Button>
-
-                    <Popover.Panel className="absolute z-10 bg-white rounded-md my-6">
-                      <div className="grid grid-cols-1 p-8">
-                        <p className="text-black">
-                        Open to undergraduate and graduate students interested in the energy sector
-                        </p>
-                        <p className='text-black'>
-                          Students can submit articles, research papers, and case studies related to energy topics 
-                          for publication in Energy Oman Magazine
-                        </p>
-                        <p className='text-black'>
-                          A review panel consisting of industry experts and editors will evaluate submissions and 
-                          select the best entries for publication
-                        </p>
-                        <p className='text-black'>
-                          Published contributors will receive recognition in the magazine and gain valuable experience 
-                          in scientific writing and research.
-                        </p>
-                      </div>
-
-                      <img src={Element9Color} className="scale" alt="Student" />
-                    </Popover.Panel>
-                </Popover>                           
+                                                      
               </div>
             </div>
           </div>
@@ -103,35 +74,7 @@ const About = () => {
               </div>
               <div className="ml-2 grow">
                 <p className="mb-3 font-bold ">Mentorship Program</p>
-                <Popover className="relative">
-                  <Popover.Button>
-                    <span className="bg-[#0a6aab] rounded-md p-2">Read more {' '}
-                      <span className="font-bold" aria-hidden="true">&rarr;</span>
-                    </span>                    
-                  </Popover.Button>
-
-                    <Popover.Panel className="absolute z-10 bg-white rounded-md my-6">
-                      <div className="grid grid-cols-1 p-8">
-                        <p className="text-black">
-                        Open to undergraduate and graduate students interested in the energy sector
-                        </p>
-                        <p className='text-black'>
-                          Students can submit articles, research papers, and case studies related to energy topics 
-                          for publication in Energy Oman Magazine
-                        </p>
-                        <p className='text-black'>
-                          A review panel consisting of industry experts and editors will evaluate submissions and 
-                          select the best entries for publication
-                        </p>
-                        <p className='text-black'>
-                          Published contributors will receive recognition in the magazine and gain valuable experience 
-                          in scientific writing and research.
-                        </p>
-                      </div>
-
-                      <img src={Element9Color} className="scale" alt="Student" />
-                    </Popover.Panel>
-                </Popover>     
+  
               </div>
             </div>
           </div>
@@ -147,35 +90,7 @@ const About = () => {
               </div>
               <div className="ml-2 grow">
                 <p className="mb-3 font-bold">Webinars and Workshops</p>
-                <Popover className="relative">
-                  <Popover.Button>
-                    <span className="bg-[#0a6aab] rounded-md p-2">Read more {' '}
-                      <span className="font-bold" aria-hidden="true">&rarr;</span>
-                    </span>                    
-                  </Popover.Button>
-
-                    <Popover.Panel className="absolute z-10 bg-white rounded-md my-6">
-                      <div className="grid grid-cols-1 p-8">
-                        <p className="text-black">
-                        Open to undergraduate and graduate students interested in the energy sector
-                        </p>
-                        <p className='text-black'>
-                          Students can submit articles, research papers, and case studies related to energy topics 
-                          for publication in Energy Oman Magazine
-                        </p>
-                        <p className='text-black'>
-                          A review panel consisting of industry experts and editors will evaluate submissions and 
-                          select the best entries for publication
-                        </p>
-                        <p className='text-black'>
-                          Published contributors will receive recognition in the magazine and gain valuable experience 
-                          in scientific writing and research.
-                        </p>
-                      </div>
-
-                      <img src={Element9Color} className="scale" alt="Student" />
-                    </Popover.Panel>
-                </Popover>     
+                
               </div>
             </div>
           </div>
@@ -191,35 +106,7 @@ const About = () => {
               </div>
               <div className="ml-2 grow">
                 <p className="mb-3 font-bold">Energy Oman Student Awards</p>
-                <Popover className="relative">
-                  <Popover.Button>
-                    <span className="bg-[#0a6aab] rounded-md p-2">Read more {' '}
-                      <span className="font-bold" aria-hidden="true">&rarr;</span>
-                    </span>                    
-                  </Popover.Button>
-
-                    <Popover.Panel className="absolute z-10 bg-white rounded-md my-6">
-                      <div className="grid grid-cols-1 p-8">
-                        <p className="text-black">
-                        Open to undergraduate and graduate students interested in the energy sector
-                        </p>
-                        <p className='text-black'>
-                          Students can submit articles, research papers, and case studies related to energy topics 
-                          for publication in Energy Oman Magazine
-                        </p>
-                        <p className='text-black'>
-                          A review panel consisting of industry experts and editors will evaluate submissions and 
-                          select the best entries for publication
-                        </p>
-                        <p className='text-black'>
-                          Published contributors will receive recognition in the magazine and gain valuable experience 
-                          in scientific writing and research.
-                        </p>
-                      </div>
-
-                      <img src={Element9Color} className="scale" alt="Student" />
-                    </Popover.Panel>
-                </Popover>     
+                     
               </div>
             </div>
           </div>
@@ -235,35 +122,7 @@ const About = () => {
               </div>
               <div className="ml-2 grow">
                 <p className="mb-3 font-bold">Industry Visits and Field Trips</p>
-                <Popover className="relative">
-                  <Popover.Button>
-                    <span className="bg-[#0a6aab] rounded-md p-2">Read more {' '}
-                      <span className="font-bold" aria-hidden="true">&rarr;</span>
-                    </span>                    
-                  </Popover.Button>
-
-                    <Popover.Panel className="absolute z-10 bg-white rounded-md my-6">
-                      <div className="grid grid-cols-1 p-8">
-                        <p className="text-black">
-                        Open to undergraduate and graduate students interested in the energy sector
-                        </p>
-                        <p className='text-black'>
-                          Students can submit articles, research papers, and case studies related to energy topics 
-                          for publication in Energy Oman Magazine
-                        </p>
-                        <p className='text-black'>
-                          A review panel consisting of industry experts and editors will evaluate submissions and 
-                          select the best entries for publication
-                        </p>
-                        <p className='text-black'>
-                          Published contributors will receive recognition in the magazine and gain valuable experience 
-                          in scientific writing and research.
-                        </p>
-                      </div>
-
-                      <img src={Element9Color} className="scale" alt="Student" />
-                    </Popover.Panel>
-                </Popover>     
+                    
               </div>
             </div>
           </div>

@@ -8,7 +8,7 @@ import NavLogoWhite from '../assets/eosi-logo/EOSI_white_logo_full.png'
 const navigation = [
   { name: 'About', href: '#' },
   { name: 'Programs', href: '#' },
-  { name: 'Register', href: '#' },
+  // { name: 'Register', href: '#' },
   { name: 'Contact us', href: '#' },
 ]
 
