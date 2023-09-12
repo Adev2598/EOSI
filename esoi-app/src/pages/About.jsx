@@ -57,7 +57,7 @@ const About = () => {
                 </svg>
               </div>
               <div className="ml-2 grow">
-                <p className="mb-3 font-bold">Student Contributor Program</p>
+                <p className="mb-3 font-bold text-[#0a6aab] dark:text-[white]">Student Contributor Program</p>
                                                       
               </div>
             </div>
@@ -73,7 +73,7 @@ const About = () => {
                 </svg>
               </div>
               <div className="ml-2 grow">
-                <p className="mb-3 font-bold ">Mentorship Program</p>
+                <p className="mb-3 font-bold text-[#0a6aab] dark:text-[white]">Mentorship Program</p>
   
               </div>
             </div>
@@ -89,7 +89,7 @@ const About = () => {
                 </svg>
               </div>
               <div className="ml-2 grow">
-                <p className="mb-3 font-bold">Webinars and Workshops</p>
+                <p className="mb-3 font-bold text-[#0a6aab] dark:text-[white]">Webinars and Workshops</p>
                 
               </div>
             </div>
@@ -105,7 +105,7 @@ const About = () => {
                 </svg>
               </div>
               <div className="ml-2 grow">
-                <p className="mb-3 font-bold">Energy Oman Student Awards</p>
+                <p className="mb-3 font-bold text-[#0a6aab] dark:text-[white]">Energy Oman Student Awards</p>
                      
               </div>
             </div>
@@ -121,7 +121,7 @@ const About = () => {
                 </svg>
               </div>
               <div className="ml-2 grow">
-                <p className="mb-3 font-bold">Industry Visits and Field Trips</p>
+                <p className="mb-3 font-bold text-[#0a6aab] dark:text-[white]">Industry Visits and Field Trips</p>
                     
               </div>
             </div>

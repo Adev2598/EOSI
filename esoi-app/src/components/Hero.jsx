@@ -127,7 +127,7 @@ const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
             // }}
           /> */}
         </div>
-        <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:pt-56">
+        <div className="mx-auto max-w-2xl py-32 sm:py-8 lg:pt-56">
           <div className="hidden sm:mb-8 sm:flex sm:justify-center">
             <div className="dark:text-white relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 dark:ring-white ring-gray-900/10 dark:hover:ring-[#0a6aab] hover:ring-[#004169]/20">
               Register for EOSI {' '}
@@ -141,10 +141,10 @@ const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
             <h1 className="dark:text-white text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
               Unlock your energy potential
             </h1>
-            <p className="dark:text-white mt-6 text-lg leading-8 text-gray-600">
+            {/* <p className="dark:text-white mt-6 text-lg leading-8 text-gray-600">
               Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
               fugiat veniam occaecat fugiat aliqua.
-            </p>
+            </p> */}
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
                 href="#"
@@ -152,9 +152,9 @@ const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
               >
                 Get started
               </a>
-              <a href="#" className="dark:text-white text-sm font-semibold leading-6 text-gray-900">
+              {/* <a href="#" className="dark:text-white text-sm font-semibold leading-6 text-gray-900">
                 More info {''} <span aria-hidden="true">→</span>
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
