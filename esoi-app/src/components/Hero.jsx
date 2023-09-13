@@ -5,6 +5,8 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import NavLogo from '../assets/eosi-logo/EOSI_logo_full.png'
 import NavLogoWhite from '../assets/eosi-logo/EOSI_white_logo_full.png'
 
+import '../Styles/animations.css'
+
 const navigation = [
   { name: 'About', href: '#' },
   { name: 'Programs', href: '#' },
@@ -19,6 +21,18 @@ const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   return (
     <>
     <div className="bg-white dark:bg-slate-800">
+    <ul class='circles'>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+              </ul>
       <header className="absolute inset-x-0 top-0 z-50">
         <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
           <div className="flex lg:flex-1">
@@ -172,7 +186,7 @@ const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
         </div>
       </div>
     </div>
-
+   
     </>
   )
 }

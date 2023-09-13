@@ -5,7 +5,7 @@ import '../Styles/animations.css'
 import Element9White from '../assets/eosi-elements/9.png'
 import Element24Color from '../assets/eosi-elements/24.png'
 import Element23Color from '../assets/eosi-elements/23.png'
-import Element9Color from '../assets/eosi-elements/14.png'
+import Element14Color from '../assets/eosi-elements/14.png'
 
 const About = () => {
 
@@ -14,8 +14,8 @@ const About = () => {
           {/*<div className='dark:bg-slate-800'>
               <img src={Element9White} />
         </div>*/}
-         <div className=" dark:bg-slate-800 pb-48">
-          <div className='mx-auto max-w-2xl py-32 sm:py-48 lg:py-56'>
+         <div className=" dark:bg-slate-800 pb-20">
+          <div className='mx-auto max-w-2xl py-32 sm:py-48 lg:py-34'>
             <div className="text-center px-4">
               <h1 className="dark:text-white text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
                 About
@@ -27,25 +27,26 @@ const About = () => {
                 The program aims to foster learning, networking, and career development opportunities for students.            
               </div>
             </div>
+            <img src={Element14Color} className="scale-75 ml-14"/>
           </div>
 
-    <div className="container my-24 sm:mx-auto md:px-6">
-  
-  <section className="mb-32">
+    <div className="container my-24 sm:mx-auto md:px-6" >
+       <section className="mb-14">
     <div className="flex flex-wrap items-center dark:text-white text-gray-900 ml-20">
       <div className="mb-6 w-full shrink-0 grow-0 basis-auto px-3 lg:mb-0 lg:w-4/12">
-        <h3 className="mb-6 text-3xl font-bold">
+        <h3 className="mb-6 text-3xl font-bold text-">
           Program Components
         </h3>
 
-        <p className="mb-12 text-neutral-500 dark:text-neutral-300">
+        <p className="mb-12 text-gray-600 dark:text-neutral-300">
           Nunc tincidunt vulputate elit. Mauris varius purus malesuada neque
-          iaculis malesuada. Aenean gravida magna orci, non efficitur est
-          porta id. Donec magna diam.
+          iaculis malesuada. 
         </p>
+        
       </div>
 
       <div className="mb-md-0 mb-6 w-full shrink-0 grow-0 basis-auto px-3 lg:w-8/12">
+        
         <div className="flex flex-wrap">
           <div className="mb-12 w-full shrink-0 grow-0 basis-auto md:w-6/12 lg:px-3">
             <div className="flex">
@@ -124,6 +125,7 @@ const About = () => {
                 <p className="mb-3 font-bold text-[#0a6aab] dark:text-[white]">Industry Visits and Field Trips</p>
                     
               </div>
+              
             </div>
           </div>
         </div>
@@ -131,9 +133,8 @@ const About = () => {
     </div>
   </section>  
 </div>
-
 </div>
-                 
+
     </>
   )
 }

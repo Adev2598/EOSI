@@ -29,7 +29,7 @@ const Footer = () => {
               Let's keep in touch!
             </h4>
             <h5 className="text-lg mt-0 mb-2 text-gray-700">
-              Find us on any of these platforms, we respond 1-2 business days.
+              Find us on any of these platforms
             </h5>
             <div className="mt-6">
               <button
@@ -100,17 +100,17 @@ const Footer = () => {
                   </li>
                   <li>
                     <a className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                        href="https://creative-tim.com/terms">Terms & Conditions
+                        href="">Terms & Conditions
                     </a>
                   </li>
                   <li>
                     <a className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                        href="https://creative-tim.com/privacy">Privacy Policy
+                        href="">Privacy Policy
                     </a>
                   </li>
                   <li>
                     <a className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                        href="https://creative-tim.com/contact-us">Contact Us
+                        href="">Contact Us
                     </a>
                   </li>
                 </ul>
