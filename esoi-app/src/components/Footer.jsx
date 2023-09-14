@@ -1,5 +1,7 @@
 import React from 'react'
 
+import { FaLinkedinIn, FaTwitter, FaInstagram } from 'react-icons/fa';
+
 const Footer = () => {
   return (
     <footer className="relative bg-gray-300 pt-8 pb-6 light:bg-slate-800">
@@ -32,30 +34,36 @@ const Footer = () => {
               Find us on any of these platforms
             </h5>
             <div className="mt-6">
-              <button
-                className="bg-white text-blue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+              <a
+                href='https://www.linkedin.com/company/energy-oman-magazine/'
+                target="_blank"
+                className="bg-white text-black shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
                 type="button"
               >
-                <i className="flex fab fa-twitter"></i>
-              </button>
-              <button
-                className="bg-white text-blue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+                <FaLinkedinIn/>
+              </a>
+              <a
+                href='https://twitter.com/energyomanmag/'
+                target="_blank"
+                className="bg-white text-black shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
                 type="button"
               >
-                <i className="flex fab fa-facebook-square"></i>
-              </button>
-              <button
-                className="bg-white text-pink-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+                <FaTwitter/>
+              </a>
+              <a
+                href='https://www.instagram.com/energyomanofficial/'
+                target="_blank"
+                className="bg-white text-black shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
                 type="button"
               >
-                <i className="flex fab fa-dribbble"></i>
-              </button>
-              <button
-                className="bg-white text-gray-900 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+               <FaInstagram/>
+              </a>
+              {/* <button
+                className="bg-white text-black shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
                 type="button"
               >
                 <i className="flex fab fa-github"></i>
-              </button>
+              </button> */}
             </div>
           </div>
           <div className="w-full lg:w-6/12 px-4">
@@ -67,22 +75,22 @@ const Footer = () => {
                 <ul className="list-unstyled">
                   <li>
                     <a className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                        href="https://www.creative-tim.com/presentation">About Us
+                        href="">About Us
                     </a>
                   </li>
                   <li>
                     <a className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                        href="https://blog.creative-tim.com">Blog
+                        href="">Program Info
                     </a>
                   </li>
                   <li>
                     <a className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                        href="https://www.github.com/creativetimofficial">Github
+                        href="">Register
                     </a>
                   </li>
                   <li>
                     <a className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                        href="https://www.creative-tim.com/bootstrap-themes/free">Free Products
+                        href="">Contact Us
                     </a>
                   </li>
 
@@ -95,7 +103,7 @@ const Footer = () => {
                 <ul className="list-unstyled">
                   <li>
                     <a className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                    href="https://github.com/creativetimofficial/argon-design-system/blob/master/LICENSE.md">MIT License
+                    href="https://energyoman.net/">Energy Oman Magazine
                   </a>
                   </li>
                   <li>
@@ -106,11 +114,6 @@ const Footer = () => {
                   <li>
                     <a className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
                         href="">Privacy Policy
-                    </a>
-                  </li>
-                  <li>
-                    <a className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                        href="">Contact Us
                     </a>
                   </li>
                 </ul>

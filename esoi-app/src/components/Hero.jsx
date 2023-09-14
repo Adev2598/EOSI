@@ -21,12 +21,7 @@ const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   return (
     <>
     <div className="bg-white dark:bg-slate-800">
-    <ul class='circles'>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+    <ul className='circles'>
                 <li></li>
                 <li></li>
                 <li></li>

@@ -1,10 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 
 import '../Styles/animations.css'
 
-import Element9White from '../assets/eosi-elements/9.png'
-import Element24Color from '../assets/eosi-elements/24.png'
-import Element23Color from '../assets/eosi-elements/23.png'
 import Element14Color from '../assets/eosi-elements/14.png'
 
 const About = () => {
@@ -27,10 +24,10 @@ const About = () => {
                 The program aims to foster learning, networking, and career development opportunities for students.            
               </div>
             </div>
-            <img src={Element14Color} className="scale-75 ml-14"/>
+            <img src={Element14Color} className="scale-75 ml-14" alt="student"/>
           </div>
 
-    <div className="container my-24 sm:mx-auto md:px-6" >
+    <div className="container my-0 sm:mx-auto md:px-6" >
        <section className="mb-14">
     <div className="flex flex-wrap items-center dark:text-white text-gray-900 ml-20">
       <div className="mb-6 w-full shrink-0 grow-0 basis-auto px-3 lg:mb-0 lg:w-4/12">

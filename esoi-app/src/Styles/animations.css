@@ -11,8 +11,8 @@
 	position: absolute;
 	display: block;
 	list-style: none;
-	width: 20px;
-	height: 20px;
+	width: 40px;
+	height: 40px;
 	background:#0a6aab;
 	animation: animate 25s linear infinite;
 	bottom: calc(-750px - 40vh);
@@ -20,20 +20,20 @@
 
 .circles li:nth-child(1) {
 	left: 25%;
-	width: 80px;
-	height: 80px;
+	width: 40px;
+	height: 40px;
 	animation-delay: 0s;
 	animation-duration: 20s;
-	border-radius: 50%;
+	border-radius: 100%;
 	border-bottom-left-radius: 0 !important;
-  border-bottom-right-radius: 0 !important;
+  	border-bottom-right-radius: 0 !important;
 	background: #0a6aab;
 }
 
 .circles li:nth-child(2) {
 	left: 10%;
-	width: 20px;
-	height: 20px;
+	width: 40px;
+	height: 40px;
 	animation-delay: 0s;
 	animation-duration: 25s;
 	border-radius: 50%;
@@ -43,8 +43,8 @@
 
 .circles li:nth-child(3) {
 	left: 70%;
-	width: 20px;
-	height: 20px;
+	width: 40px;
+	height: 40px;
 	animation-delay: 0s;
 	animation-duration: 20s;
 	border-radius: 50%;
@@ -53,9 +53,9 @@
 }
 
 .circles li:nth-child(4) {
-	left: 40%;
-	width: 60px;
-	height: 60px;
+	left: 80%;
+	width: 40px;
+	height: 40px;
 	animation-delay: 0s;
 	animation-duration: 15s;
 	border-radius: 50%;
@@ -64,16 +64,16 @@
 }
 
 .circles li:nth-child(5) {
-	left: 65%;
-	width: 20px;
-	height: 20px;
+	left: 55%;
+	width: 40px;
+	height: 40px;
 	animation-delay: 0s;
 	animation-duration: 20s;
 	border-radius: 50%;
 	background: #0a6aab;
 }
 
-.circles li:nth-child(6) {
+/* .circles li:nth-child(6) {
 	left: 75%;
 	width: 90px;
 	height: 90px;
@@ -126,7 +126,7 @@
 	border-radius: 25%;
 	border-top-left-radius: 0 !important;
 	background: #004169;
-}
+} */
 
 @keyframes animate {
 	0% {
