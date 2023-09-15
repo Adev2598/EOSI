@@ -9,7 +9,7 @@ const App = () => {
       <Hero/>
       <About/>
       <ContactUs/>
-      <Footer/>
+       <Footer/>
       {/* <StudentForm/> */}
     </React.Fragment>
   )

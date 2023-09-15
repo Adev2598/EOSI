@@ -21,19 +21,21 @@ const ContactForm = () => {
     <div className=' dark:bg-slate-800 pb-32 '>
     <div className="w-full max-w-xl mx-auto">
 
-        <form ref={form} onSubmit={sendEmail} className='shadow-md rounded px-8 pt-6 pb-8 mb-10 bg-gray-300 dark:bg-black'>
-        <label className='block  dark:text-white text-gray-700 text-sm font-bold mb-2'>Name</label>
-        <input required className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="username" type="text" name="user_name" />
-
-        <label className='block  dark:text-white text-gray-700 text-sm font-bold mb-2'>Email</label>
-        <input required className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="email" type="email" name="user_email" />
+        <form ref={form} onSubmit={sendEmail} className='shadow-md rounded px-8 pt-6 pb-8 mb-10 bg-gray-300 dark:bg-gray-900'>
         
-        <label className='block  dark:text-white text-gray-700 text-sm font-bold mb-2'>Message</label>
-        <textarea className="shadow appearance-none border rounded w-full py-2 px-3" name="message" />
+        <label className='hidden  dark:text-white text-gray-700 text-sm font-bold mb-4'>Name</label>
+        <input placeholder='Enter your name'required className=" w-full flex-auto rounded-md border-0 bg-white/5 px-3.5 py-2 mb-4 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6" type="text" name="user_name" />
+
+        <label className=' hidden  dark:text-white text-gray-700 text-sm font-bold mb-4'></label>
+        <input placeholder='Enter you email'required className=" w-full flex-auto rounded-md border-0 bg-white/5 px-3.5 py-2 mb-4 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6" type="email" name="user_email" />
+        
+        <label className='hidden  dark:text-white text-gray-700 text-sm font-bold mb-4'>Message</label>
+        <textarea placeholder='Type your message...'className=" w-full flex-auto rounded-md border-0 bg-white/5 px-3.5 py-2 mb-4 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6" name="message" />
         
         <div className="flex items-center justify-between">
             <input className="bg-[#0a6aab] hover:bg-[#004169] text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit" value="Send" />
         </div>
+        
         </form>
         
     </div>

@@ -24,14 +24,14 @@ const About = () => {
                 The program aims to foster learning, networking, and career development opportunities for students.            
               </div>
             </div>
-            <img src={Element14Color} className="scale-75 ml-14" alt="student"/>
+            <img src={Element14Color} className="scale-75 mx-auto" alt="student"/>
           </div>
 
     <div className="container my-0 sm:mx-auto md:px-6" >
-       <section className="mb-14">
+       <section className="mb-8">
     <div className="flex flex-wrap items-center dark:text-white text-gray-900 ml-20">
       <div className="mb-6 w-full shrink-0 grow-0 basis-auto px-3 lg:mb-0 lg:w-4/12">
-        <h3 className="mb-6 text-3xl font-bold text-">
+        <h3 className="mb-6 text-3xl font-bold">
           Program Components
         </h3>
 
