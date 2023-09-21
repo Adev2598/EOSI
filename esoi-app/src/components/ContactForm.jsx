@@ -21,7 +21,7 @@ const ContactForm = () => {
     <div className=' dark:bg-slate-800 pb-32 '>
     <div className="w-full max-w-xl mx-auto">
 
-        <form ref={form} onSubmit={sendEmail} className='shadow-md rounded px-8 pt-6 pb-8 mb-10 bg-gray-300 dark:bg-gray-900'>
+        <form ref={form} onSubmit={sendEmail} className='shadow-md rounded px-8 pt-6 pb-8 mb-10 bg-gray-900'>
         
         <label className='hidden  dark:text-white text-gray-700 text-sm font-bold mb-4'>Name</label>
         <input placeholder='Enter your name'required className=" w-full flex-auto rounded-md border-0 bg-white/5 px-3.5 py-2 mb-4 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6" type="text" name="user_name" />

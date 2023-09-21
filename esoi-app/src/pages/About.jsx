@@ -1,6 +1,6 @@
 import React from "react";
 
-import '../Styles/animations.css'
+// import '../Styles/animations.css'
 
 import Element14Color from '../assets/eosi-elements/14.png'
 
