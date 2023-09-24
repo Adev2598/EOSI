@@ -2,15 +2,21 @@ import { useState, React} from 'react'
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
+import { Switch } from 'antd';
+
 import NavLogo from '../assets/eosi-logo/EOSI_logo_full.png'
 import NavLogoWhite from '../assets/eosi-logo/EOSI_white_logo_full.png'
 
 const navigation = [
-    { name: 'About', href: '#' },
-    { name: 'Programs', href: '#' },
+    { name: 'About', href: '#about' },
+    { name: 'Programs', href: '#programs' },
     // { name: 'Register', href: '#' },
-    { name: 'Contact us', href: '#' },
+    { name: 'Contact us', href: '#contactus' },
   ]
+
+  const onChange = (checked) => {
+    console.log(`switch to ${checked}`);
+  };
 
 const NavBar = () => {
 
@@ -53,9 +59,10 @@ const NavBar = () => {
             ))}
           </div>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-            <a href="#" className=" dark:text-white text-sm font-semibold leading-6 text-gray-900">
+            {/* <a href="#" className=" dark:text-white text-sm font-semibold leading-6 text-gray-900">
               Register <span aria-hidden="true">&rarr;</span>
-            </a>
+            </a> */}
+            <Switch className='bg-black dark:bg-gray-500' defaultChecked onChange={onChange} />
           </div>
         </nav>
         <Dialog as="div" className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
@@ -98,12 +105,13 @@ const NavBar = () => {
                   ))}
                 </div>
                 <div className="py-6">
-                  <a
+                  {/* <a
                     href="#"
                     className=" dark:text-white -mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                   >
                     Register
-                  </a>
+                  </a> */}
+                  <Switch className='bg-black dark:bg-gray-500' defaultChecked onChange={onChange} />
                 </div>
               </div>
             </div>

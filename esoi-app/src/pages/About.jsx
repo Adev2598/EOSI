@@ -1,6 +1,7 @@
 import React from "react";
+import { Card, Col, Row } from 'antd';
 
-// import '../Styles/animations.css'
+import '../Styles/animations.css'
 
 import Element14Color from '../assets/eosi-elements/14.png'
 
@@ -13,7 +14,7 @@ const About = () => {
         </div>*/}
          <div className=" dark:bg-slate-800 pb-20">
           <div className='mx-auto max-w-2xl py-32 sm:py-48 lg:py-34'>
-            <div className="text-center px-4">
+            <div id="about" className="text-center px-4">
               <h1 className="dark:text-white text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
                 About
                 </h1>
@@ -26,9 +27,35 @@ const About = () => {
             </div>
             <img src={Element14Color} className="scale-75 mx-auto" alt="student"/>
           </div>
+       
+          <div id="programs" className='mx-auto max-w-2xl py-auto lg:py-0'>
+            <div id="about" className="text-center px-4">
+              <h1 className="dark:text-white text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl pb-16">
+                Program Components
+                </h1>
+            </div>
 
-    <div className="container my-0 sm:mx-auto md:px-6" >
-       <section className="mb-8">
+            <Row gutter={16}>
+              <Col span={8}>
+                <Card title="Card title" loading="true" bordered={false}>
+                  Card content
+                </Card>
+              </Col>
+              <Col span={8}>
+                <Card title="Card title" bordered={false}>
+                  Card content
+                </Card>
+              </Col>
+              <Col span={8}>
+                <Card title="Card title" bordered={false}>
+                  Card content
+                </Card>
+              </Col>
+            </Row>
+            
+          </div>
+    {/* <div  id="programs"className="container my-0 sm:mx-auto md:px-6" > */}
+       {/* <section className="mb-8">
     <div className="flex flex-wrap items-center dark:text-white text-gray-900 ml-20">
       <div className="mb-6 w-full shrink-0 grow-0 basis-auto px-3 lg:mb-0 lg:w-4/12">
         <h3 className="mb-6 text-3xl font-bold">
@@ -128,8 +155,8 @@ const About = () => {
         </div>
       </div>
     </div>
-  </section>  
-</div>
+  </section>   */}
+{/* </div> */}
 </div>
 
     </>
