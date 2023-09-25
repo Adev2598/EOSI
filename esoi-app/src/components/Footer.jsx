@@ -37,7 +37,8 @@ const Footer = () => {
               <a
                 href='https://www.linkedin.com/company/energy-oman-magazine/'
                 target="_blank"
-                className="bg-white text-black shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+                className="bg-white text-black shadow-lg font-normal h-10 w-10 items-center 
+                justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
                 type="button"
               >
                 <FaLinkedinIn/>
@@ -45,7 +46,8 @@ const Footer = () => {
               <a
                 href='https://twitter.com/energyomanmag/'
                 target="_blank"
-                className="bg-white text-black shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+                className="bg-white text-black shadow-lg font-normal h-10 w-10 items-center 
+                justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
                 type="button"
               >
                 <FaTwitter/>
@@ -53,7 +55,8 @@ const Footer = () => {
               <a
                 href='https://www.instagram.com/energyomanofficial/'
                 target="_blank"
-                className="bg-white text-black shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+                className="bg-white text-black shadow-lg font-normal h-10 w-10 items-center 
+                justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
                 type="button"
               >
                <FaInstagram/>

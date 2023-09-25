@@ -31,7 +31,7 @@ const Hero = () => {
           </div>
           <div className="text-center">
             <h1 className="dark:text-white text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-              Unlock your energy potential
+              unlock your energy potential
             </h1>
             {/* <p className="dark:text-white mt-6 text-lg leading-8 text-gray-600">
               Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
