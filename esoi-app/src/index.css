@@ -4,6 +4,10 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+/* svg {
+  vertical-align: initial;
+} */
+
 body {
   margin: 0;
   padding:0;

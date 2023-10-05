@@ -1,7 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import '../Styles/programs.css'
-import { TERipple } from 'tw-elements-react'
-import AirCapture from '../assets/videos/AirCapture.mp4'
+import H2Plant from '../assets/videos/H2_plant.mp4'
 
 
 const Programs = () => {
@@ -31,7 +29,7 @@ const Programs = () => {
 
             <div className='grid xl:grid-cols-2 sm:grid-cols-1 gap-14'>
                 <div className="block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
-                  <video src={AirCapture} width="800" height="400" playsInline loop ref={videoEl}/>                
+                  <video src={H2Plant} width="800" height="400" playsInline loop ref={videoEl}/>                
                 <div className="p-6">
                     <h5 className="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
                         Industry Visits & Field Trips
@@ -44,7 +42,7 @@ const Programs = () => {
                 </div>
             {/* first end */}
                 <div className="block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
-                  <video src={AirCapture} width="800" height="400" playsInline loop ref={videoEl}/>                
+                  <video src={H2Plant} width="800" height="400" playsInline loop ref={videoEl}/>                
                 <div className="p-6">
                     <h5 className="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
                         Industry Visits & Field Trips

@@ -1,5 +1,6 @@
-import { useState, React} from 'react'
+import { useState, useEffect, React} from 'react'
 import { Dialog } from '@headlessui/react'
+import { Link } from 'react-router-dom';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 import { Switch } from 'antd';
@@ -24,21 +25,26 @@ const NavBar = () => {
     
   return (
     <>
-        <header className="absolute inset-x-0 top-0 z-50">
+    <div className="sticky top-0">
+        <header className="absolute inset-x-0 top-0 z-50 ">
         <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
           <div className="flex lg:flex-1">
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">EOSI</span>
+              <Link to="/">
               <img
                 className="h-14 w-auto pt-2 dark:hidden"
                 src={NavLogo}
                 alt="EOSI-Logo"
               />
+              </Link>
+              <Link to="/">
             <img
                 className="h-14 w-auto light:hidden"
                 src={NavLogoWhite}
                 alt="EOSI-Logo"
             />
+            </Link>
             </a>
           </div>
           <div className="flex lg:hidden">
@@ -118,6 +124,7 @@ const NavBar = () => {
           </Dialog.Panel>
         </Dialog>
       </header>
+      </div>
     </>
   )
 }

@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import {Hero, Footer, NavBar} from './components'
 import {About, ContactUs} from './pages'
 import { FloatButton } from 'antd';
+import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
 
 const App = () => {
 
@@ -18,15 +19,20 @@ const App = () => {
   return (
     !loading && (
       <React.Fragment>
+      <BrowserRouter>
       <div className='h-80'>
         <NavBar/>
         <Hero/>
         <About/>
         <ContactUs/>
         <Footer/>
-        {/* <StudentForm/> */}
         <FloatButton.BackTop/>
       </div>
+      <Routes>
+        <Route path="/about-eosi" element={<About />} />
+        <Route path="/contact-eosi" element={<ContactUs />} />
+      </Routes>
+      </BrowserRouter>
     </React.Fragment>
     )
   )
