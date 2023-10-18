@@ -1,6 +1,5 @@
 import { useState, useEffect, React} from 'react'
 import { Dialog } from '@headlessui/react'
-import { Link } from 'react-router-dom';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 import { Switch } from 'antd';
@@ -31,20 +30,19 @@ const NavBar = () => {
           <div className="flex lg:flex-1">
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">EOSI</span>
-              <Link to="/">
+              
               <img
                 className="h-14 w-auto pt-2 dark:hidden"
                 src={NavLogo}
                 alt="EOSI-Logo"
               />
-              </Link>
-              <Link to="/">
+              
             <img
                 className="h-14 w-auto light:hidden"
                 src={NavLogoWhite}
                 alt="EOSI-Logo"
             />
-            </Link>
+            
             </a>
           </div>
           <div className="flex lg:hidden">
